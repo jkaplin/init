@@ -1,0 +1,14 @@
+# Identify the IP address of the DNS that responds to the following url: slash16.org
+nslookup slash16.org
+# -> Server:	10.51.1.253
+# -> Address:	10.51.1.253#53
+# -> 
+# -> Non-authoritative answer:
+# -> Name:	slash16.org
+# -> Address: 52.84.245.216
+# -> Name:	slash16.org
+# -> Address: 52.84.245.132
+# -> Name:	slash16.org
+# -> Address: 52.84.245.118
+# -> Name:	slash16.org
+# -> Address: 52.84.245.56

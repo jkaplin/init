@@ -1,0 +1,5 @@
+# Find the provider of slash16.org
+whois slash16.org | grep Registrar
+# -> Registrar URL: https://www.bookmyname.com
+# The whois command gives us information about the domain's names, addresses, and system information.
+# Specifically, to look for the domain's host provider seek the 'Registrar' key-word in the list.
