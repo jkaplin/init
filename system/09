@@ -1,2 +1,3 @@
-What command lets you know who is connected to the System?
-echo "The command 'who -a' lists all users connected to the system."
+# What command lets you know who is connected to the System?
+# The command 'who -a' lists all users connected to the system.
+who -a
