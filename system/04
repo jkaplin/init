@@ -1,2 +1,3 @@
 # What command gives you the time since your system was last booted?
-echo "The command 'uptime' will present you the time since you last system boot."
+# The command 'uptime' will present you the time since you last system boot.
+uptime
