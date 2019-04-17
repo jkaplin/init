@@ -1,1 +1,2 @@
 # What file has to be modified to make it permanent?
+echo "To permanently change your hostname modify the file: /etc/hostname"
