@@ -1,4 +1,5 @@
 # What command can you use to rename your system?
-echo "I can use the command hostname, for example:"
-echo "hostname new_name"
+# I can use the command hostname, for example:
+# hostname new_name
 # You do need root privliges.
+hostname new_name
