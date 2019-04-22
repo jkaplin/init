@@ -1,6 +1,6 @@
 # Identify and display the Ethernet interface characteristics:
 #	(a) Identify broadcast address
-networksetup -getinfo Ethernet
+ifconfig | grep 'broadcast' | cut -d ' ' -f6
 # -> 10.112.9.40
 
 #	(b) Identify all IP adresses which are part of the same subnet
