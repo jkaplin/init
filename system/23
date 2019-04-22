@@ -1,1 +1,3 @@
 # Explain how connect yourself as new user. (With graphic session and ssh session)
+# To connect in gui: use the command 'sudo adduser username' and continue to login
+# To connect in ssh: use the command 'ssh new_user@127.0.0.1'
