@@ -4,5 +4,5 @@ ifconfig en0 | grep "inet " | cut -d " " -f 2
 # -> 10.112.9.40
 #
 #	(b) Identify all IP adresses which are part of the same subnet
-command of something and grepping the ip address I got from the previous command
+arp -a
 # -> 
