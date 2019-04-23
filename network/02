@@ -1,8 +1,31 @@
 # Identify and display the Ethernet interface characteristics:
 #	(a) Identify broadcast address
 ifconfig | grep 'broadcast' | cut -d ' ' -f6
-# -> 10.112.9.40
-
+# -> 10.113.255.255
 #	(b) Identify all IP adresses which are part of the same subnet
 arp -a
-# -> 
+# -> e1z3r2p1.42.us.org (10.113.2.1) at 38:c9:86:3e:6f:13 on en0 ifscope [ethernet]
+# -> e1z3r2p8.42.us.org (10.113.2.8) at 38:c9:86:56:c9:e7 on en0 ifscope [ethernet]
+# -> e1z3r2p9.42.us.org (10.113.2.9) at 38:c9:86:56:c5:f0 on en0 ifscope [ethernet]
+# -> e1z3r2p11.42.us.org (10.113.2.11) at 38:c9:86:56:cd:f6 on en0 ifscope [ethernet]
+# -> e1z3r2p15.42.us.org (10.113.2.15) at 38:c9:86:3c:f1:16 on en0 ifscope [ethernet]
+# -> e1z3r3p20.42.us.org (10.113.3.20) at 38:c9:86:57:2a:2 on en0 ifscope [ethernet]
+# -> e1z3r4p2.42.us.org (10.113.4.2) at 38:c9:86:3c:eb:c6 on en0 ifscope [ethernet]
+# -> e1z3r4p21.42.us.org (10.113.4.21) at 38:c9:86:57:26:db on en0 ifscope [ethernet]
+# -> e1z3r4p23.42.us.org (10.113.4.23) at 38:c9:86:57:26:fd on en0 ifscope [ethernet]
+# -> e1z3r5p4.42.us.org (10.113.5.4) at 38:c9:86:56:c5:d7 on en0 ifscope [ethernet]
+# -> e1z3r6p15.42.us.org (10.113.6.15) at 38:c9:86:2a:39:7d on en0 ifscope [ethernet]
+# -> e1z3r6p17.42.us.org (10.113.6.17) at 38:c9:86:56:c8:3a on en0 ifscope [ethernet]
+# -> e1z3r7p2.42.us.org (10.113.7.2) at 38:c9:86:2f:9c:f8 on en0 ifscope [ethernet]
+# -> e1z3r7p8.42.us.org (10.113.7.8) at 38:c9:86:3d:3e:81 on en0 ifscope [ethernet]
+# -> e1z3r7p23.42.us.org (10.113.7.23) at 38:c9:86:56:cc:32 on en0 ifscope [ethernet]
+# -> e1z3r7p24.42.us.org (10.113.7.24) at 38:c9:86:33:7:e7 on en0 ifscope [ethernet]
+# -> e1z3r8p4.42.us.org (10.113.8.4) at 38:c9:86:56:ae:9f on en0 ifscope [ethernet]
+# -> e1z3r8p6.42.us.org (10.113.8.6) at 38:c9:86:56:a2:e5 on en0 ifscope [ethernet]
+# -> e1z3r8p8.42.us.org (10.113.8.8) at 38:c9:86:56:ca:fe on en0 ifscope [ethernet]
+# -> e1z3r8p16.42.us.org (10.113.8.16) at 38:c9:86:3c:ee:b9 on en0 ifscope [ethernet]
+# -> ? (10.113.254.254) at 0:35:1a:54:ca:17 on en0 ifscope [ethernet]
+# -> ? (169.254.49.63) at 38:c9:86:56:a6:35 on en0 [ethernet]
+# -> ? (224.0.0.251) at 1:0:5e:0:0:fb on en0 ifscope permanent [ethernet]
+# -> ? (239.255.255.250) at 1:0:5e:7f:ff:fa on en0 ifscope permanent [ethernet] 
+

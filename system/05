@@ -1,3 +1,4 @@
 # Name the command that determines the state of the SSH service.
-# To see the status of the SSH service use the command: 'service ssh status'.
+# -> To see the status of the SSH service use the command: 'service ssh status'.
 service ssh status
+

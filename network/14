@@ -1,2 +1,4 @@
 # What file contains the local DNS entries?
-# The file '/etc/hosts'.
+The file '/etc/hosts'
+# -> /etc/hosts
+

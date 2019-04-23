@@ -1,4 +1,5 @@
 # Figure out the PID of the SSHD service.
-# Using the command 'service ssh status'.
-# Looking for 'Main PID' to find the PID of the SSHD service.
+# -> Using the command 'service ssh status'.
+# -> Looking for 'Main PID' to find the PID of the SSHD service.
 service ssh status | grep 'Main PID'
+

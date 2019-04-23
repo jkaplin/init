@@ -1,5 +1,6 @@
 # What command can you use to rename your system?
-# I can use the command hostname, for example:
-# hostname new_name
-# You do need root privliges.
-hostname new_name
+# -> I can use the command hostname, for example:
+# -> hostname new_name
+# -> You do need root privliges:
+sudo hostname new_name
+

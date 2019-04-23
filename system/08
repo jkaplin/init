@@ -1,2 +1,4 @@
 # What file contains the RSA keys of systems that are authorized to connect via SSH?
-echo "The file ~/.ssh/authorized_keys contains the RSA keys to connect via SSH."
+The file ~/.ssh/authorized_keys contains the RSA keys to connect via SSH.
+# -> /.ssh/authorized_keys
+

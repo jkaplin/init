@@ -1,3 +1,4 @@
 # What command lets you know who is connected to the System?
-# The command 'who -a' lists all users connected to the system.
+# -> The command 'who -a' lists all users connected to the system.
 who -a
+

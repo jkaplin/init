@@ -1,3 +1,4 @@
 # Name the command that reboots the SSH service.
-# To reboot the SSh service: 'service ssh restart'.
+# -> To reboot the SSh service: 'service ssh restart'.
 service ssh restart
+

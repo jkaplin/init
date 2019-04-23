@@ -1,3 +1,5 @@
 # Get the complete path of the file that contains the IP address of the DNS server you’re using
 # Complete path is /var/run/resolv.conf which is a link to /var/run/resolv.conf which is a daemon.
-cat /var/run/resolv.conf
+The file '/var/run/resolv.conf'
+# -> /var/run/resolv.conf
+
